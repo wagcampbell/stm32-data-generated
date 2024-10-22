@@ -3761,33 +3761,6 @@
                     ]
                 },
                 {
-                    "name": "PKA",
-                    "address": 1108090880,
-                    "registers": {
-                        "kind": "pka",
-                        "version": "v1a",
-                        "block": "PKA"
-                    },
-                    "rcc": {
-                        "bus_clock": "HCLK2",
-                        "kernel_clock": "HCLK2",
-                        "enable": {
-                            "register": "AHB2ENR",
-                            "field": "PKAEN"
-                        },
-                        "reset": {
-                            "register": "AHB2RSTR",
-                            "field": "PKARST"
-                        }
-                    },
-                    "interrupts": [
-                        {
-                            "signal": "GLOBAL",
-                            "interrupt": "PKA"
-                        }
-                    ]
-                },
-                {
                     "name": "PSSI",
                     "address": 1107477504,
                     "registers": {
@@ -9739,10 +9712,6 @@
                 {
                     "name": "HASH",
                     "number": 117
-                },
-                {
-                    "name": "PKA",
-                    "number": 118
                 },
                 {
                     "name": "CEC",
